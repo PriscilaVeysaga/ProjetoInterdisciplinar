@@ -23,8 +23,6 @@
 // import Produto from './pages/Produtos';
 // import Servicos from './pages/Servicos';
 
-
-
 // function App() {
 //   return (
 //     <Router>
@@ -34,12 +32,12 @@
 //           <nav>
 //             <ul>
 //               <li>
-//                 <img src={logo_sem_fundo} alt="logo" 
-//                   style={{ 
-//                     width: '250px', 
-//                     height: 'auto' }} 
+//                 <img src={logo_sem_fundo} alt="logo"
+//                   style={{
+//                     width: '250px',
+//                     height: 'auto' }}
 //                 />
-              
+
 //               </li>
 //               <li>
 //                 <Link to="/">Home</Link>
@@ -58,11 +56,11 @@
 //               </li>
 //             </ul>
 //           </nav>
-//           <img src={fundo} alt="fundo" />  
+//           <img src={fundo} alt="fundo" />
 //         </div>
 //         </header>
 //         <main>
-        
+
 //           <Routes>
 //             <Route path="/" element={<Home />} />
 //             <Route path="/clientes" element={<Clientes />} />
@@ -78,13 +76,12 @@
 
 // export default App;
 
-import React from 'react';
-import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
-import fundo from './images/fundo.png';
-import logo_sem_fundo from './images/logo_sem_fundo.png';
-import Navigation from './components/navegacao';  // Certifique-se de que o caminho está correto!
-import AppRoutes from './Routes';      // Certifique-se de que o caminho está correto!
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router } from "react-router-dom";
+import logo_sem_fundo from "./images/logo_sem_fundo.png";
+import Navigation from "./components/navegacao"; // Certifique-se de que o caminho está correto!
+import AppRoutes from "./Routes"; // Certifique-se de que o caminho está correto!
 
 function App() {
   return (
@@ -92,7 +89,11 @@ function App() {
       <div className="App">
         <header className="App-header">
           <div className="logo">
-            <img src={logo_sem_fundo} alt="logo" style={{ width: '250px', height: 'auto' }} />
+            <img
+              src={logo_sem_fundo}
+              alt="logo"
+              style={{ width: "50%", height: "auto" }}
+            />
           </div>
           <Navigation />
         </header>
@@ -105,4 +106,3 @@ function App() {
 }
 
 export default App;
-

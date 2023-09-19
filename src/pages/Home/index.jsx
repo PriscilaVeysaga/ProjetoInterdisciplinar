@@ -1,21 +1,25 @@
 import React from "react";
+import "./apreServico.css";
 import imgFundo from "../../images/fundo.png";
 import bigode from "../../images/bigode-branco-png.png";
 
 export default function index() {
   return (
     <>
-      <div className="edica-decricao">
-        <div className="edicao-fundo">
+      <div className="edicao-fundo">
+        <img
+          className="fundo"
+          src={imgFundo}
+          alt="Imagem de fundo com aparelhos de barbiar"
+        />
+        <div className="descriao-texto">
+          <p>Les Mustaches</p>
+          <p style={{ fontSize: "60px" }}>Seja Bem -vindos</p>
           <img
-            className="fundo"
-            src={imgFundo}
-            alt="Imagem de fundo com aparelhos de barbiar"
+            src={bigode}
+            alt="logo de bigode branco"
+            style={{ width: "100%", height: "auto" }}
           />
-          <div className="descriao-texto">
-            <p>Les Mustaches</p>
-            <img src={bigode} alt="logo de bigode branco" />
-          </div>
         </div>
       </div>
     </>
