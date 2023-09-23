@@ -1,6 +1,6 @@
 {
-  "name": "les-mustaches",
-  "version": "0.1.0",
+  "name": "les-mustaches-react",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -35,5 +35,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fegolim/PI_les-mustaches-react.git"
+  },
+  "author": "Fernanda Goncalves de Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fegolim/PI_les-mustaches-react/issues"
+  },
+  "homepage": "https://github.com/fegolim/PI_les-mustaches-react#readme"
 }
