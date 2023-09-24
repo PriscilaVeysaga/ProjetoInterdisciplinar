@@ -12,7 +12,7 @@ export default function index() {
           src={imgFundo}
           alt="Imagem de fundo com aparelhos de barbiar"
         />
-        <div className="descriao-texto">
+        <div className="descricao-texto">
           <p>Les Mustaches</p>
           <p style={{ fontSize: "60px" }}>Seja Bem -vindos</p>
           <img

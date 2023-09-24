@@ -13,6 +13,7 @@ body {
   background-color: #000;
   font-size: 18px;
   gap: 30px;
+  padding-left: 50px;
 }
 
 .logo img {
@@ -30,8 +31,8 @@ nav a {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  padding-left: 10px;
-  padding-right: 37px;
+  padding-left: 0px;
+  padding-right: 57px;
 }
 
 main {
