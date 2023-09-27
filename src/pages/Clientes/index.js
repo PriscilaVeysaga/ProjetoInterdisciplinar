@@ -30,7 +30,7 @@ const Clientes = () => {
         </span>
         <div className="buttons">
           <button>
-          <Link to="/cadastro">Cadastrar</Link>
+          <Link to="/cadastrar">Cadastrar</Link>
           </button>
           <button>Entrar</button>
         </div>
