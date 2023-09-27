@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './cadastro.css';
-import Homem from "../../../images/homem_amarelo.png"
+import Homem from "../../../images/homem.png"
 
 const CadastroForm = () => {
   const [formData, setFormData] = useState({
@@ -26,7 +26,7 @@ const CadastroForm = () => {
 
   return (
     <div className="cadastro-container">
-      <div className="image-container">
+      <div className="image-container-cadastro">
         <img src={Homem} alt="Imagem" />
       </div>
       <div className="form-container">

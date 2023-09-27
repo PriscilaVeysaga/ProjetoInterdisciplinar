@@ -32,7 +32,7 @@ const Navigation = () => {
           <Link to="/profissional">Profissional</Link>
         </li>
         <li>
-          <Link to="/produto">Produto</Link>
+          <Link to="/produto">Produtos</Link>
         </li>
         <li>
           <Link to="/servicos">Serviços</Link>

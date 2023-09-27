@@ -1,14 +1,16 @@
 .cadastro-container {
     display: flex;
     align-items: center;
+    background-color: #ffdb58;
   }
   
-  .image-container {
+  .image-container-cadastro {
     flex: 1;
-    padding: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
   
-  .image-container img {
+  .image-container-cadastro img {
     /* width: 100%; */
     max-height: 100%;
   }
@@ -16,6 +18,7 @@
   .form-container {
     flex: 1;
     padding: 20px;
+    margin-right: 50px;
   }
   
   .form-group {
@@ -25,6 +28,7 @@
   label {
     display: block;
     margin-bottom: 5px;
+    font-weight: 600;
   }
   
   input {
@@ -37,15 +41,11 @@
   button {
     padding: 10px 20px;
     margin-right: 10px;
-    background-color: #ffdb58;
-    color: #000;
+    background-color: #000;
+    color: #ffdb58;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-weight: 600;
-  }
-  
-  button:hover {
-    background-color: #ffdb58;
   }
   

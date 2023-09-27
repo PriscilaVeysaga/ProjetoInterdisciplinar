@@ -7,7 +7,7 @@ export default function index() {
       <div className="edicao-fundo">
         <div className="title">
           <p>Les Mustaches</p>
-          <p style={{ fontSize: "60px" }}>Seja Bem -vindos</p>
+          <p style={{ fontSize: "60px" }}>Sejam Bem -vindos</p>
         </div>
       </div>
     </>

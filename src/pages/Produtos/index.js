@@ -3,6 +3,12 @@ import "./produtos.css";
 import shampoo from "../../images/produtos/shampoo_barba.png"
 import shampoo1 from "../../images/produtos/01.png"
 import shampoo2 from "../../images/produtos/02.png"
+import shampooSolido from "../../images/produtos/04.png"
+import shampooReconstrutor from "../../images/produtos/06.png"
+import condicionador from "../../images/produtos/07.png"
+import pomada from "../../images/produtos/08.png"
+
+
 
 
 const Produtos = () => {
@@ -12,17 +18,41 @@ const Produtos = () => {
     produtos: [
       {
         id: 1,
-        nome: 'Shampoo Reparador muito grandeeeee',
-        descricao: 'blablabla',
+        nome: 'Shampoo Reparador',
+        descricao: 'Enriquecido com ingredientes naturais, ele restaura o brilho e a vitalidade dos seus fios.',
         imagem: shampoo1,
         preco: 49.99
       },
       {
         id: 2,
-        nome: 'Condicionador Reparador',
-        descricao: 'blablabla',
-        imagem: shampoo,
-        preco: 49.99
+        nome: 'Shampoo Gasoline',
+        descricao: 'Transforme cabelos danificados em uma obra-prima de suavidade e brilho.',
+        imagem: shampoo2,
+        preco: 30.00
+      },
+
+      {
+        id: 3,
+        nome: 'Shampoo Sólido',
+        descricao: 'Nosso shampoo sólido é feito com ingredientes naturais que deixam seu cabelo sedoso.',
+        imagem: shampooSolido,
+        preco: 29.99
+      },
+
+      {
+        id: 4,
+        nome: 'Shampoo Reconstrutor',
+        descricao: 'Nosso shampoo reconstrutor repara os danos, deixando-os visivelmente mais saudáveis.',
+        imagem: shampooReconstrutor,
+        preco: 60.00
+      },
+
+      {
+        id: 5,
+        nome: 'Condicionador',
+        descricao: 'Dê ao seu cabelo o toque final perfeito com nosso condicionador',
+        imagem: condicionador,
+        preco: 65.00
       },
       ]
   },
@@ -30,17 +60,17 @@ const Produtos = () => {
     categoria: 'Barba',
       produtos:[
         {
-          id: 3,
-          nome: 'Espuma de Barbear Sensitive',
-          descricao: 'Espuma p/ peles sensíveis',
+          id: 6,
+          nome: 'Shampoo de Barba',
+          descricao: 'Limpa profundamente, deixando os fios macios e cheios de vida',
           imagem: shampoo,
-          preco: 49.99
+          preco: 59.99
         },
         {
-          id: 4,
-          nome: 'Loção pós barba',
-          descricao: 'blablabla',
-          imagem: shampoo,
+          id: 7,
+          nome: 'Pomada em pó',
+          descricao: 'a solução leve e versátil para estilizar e dar textura a sua barba',
+          imagem: pomada,
           preco: 49.99
         },
       ]

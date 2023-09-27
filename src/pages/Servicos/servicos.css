@@ -1,0 +1,26 @@
+.container-servicos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .servico {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  }
+  
+  .servico h2 {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
