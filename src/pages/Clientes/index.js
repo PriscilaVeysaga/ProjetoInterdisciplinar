@@ -8,6 +8,7 @@
 
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import cliente from "../../images/adulto.jpg"
 import './clientes.css';
 
@@ -28,7 +29,9 @@ const Clientes = () => {
           Aqui, não oferecemos apenas um serviço de barbearia, proporcionamos uma experiência única de cuidado e atenção a cada detalhe. Nossa equipe dedicada está sempre pronta para ouvir suas preferências e transformá-las em cortes e estilos que refletem sua personalidade
         </span>
         <div className="buttons">
-          <button>Cadastrar</button>
+          <button>
+          <Link to="/cadastro">Cadastrar</Link>
+          </button>
           <button>Entrar</button>
         </div>
       </div>
