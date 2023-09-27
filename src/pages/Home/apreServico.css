@@ -1,33 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
 
 .edicao-fundo {
-  display: flex;
-  width: 100vw; 
-  height: 100vh; 
-  position: relative;
-  overflow: hidden;
-}
-
-.fundo {
   width: 100%;
   height: 100%;
-  z-index: 1;
-  position: inherit; 
-  object-fit: cover; 
-}
-
-.descricao-texto {
-  z-index: 2;
-  position: absolute;
-  color: #ffffff;
-  font-size: 90px;
-  margin-top: 190px;
-  text-align: center;
-  font-family: "GFS Didot", serif;
+  position: relative;
+  overflow: hidden;
   display: flex;
-  flex-direction: column;
-  right: 60px;
+  background-image: url("../../images/fundo.png");
+  color: #ffffff;
+}
+.title {
+  width: 100%;
+  height: 100%;
+  text-align: -webkit-center;
+  margin-top: 31%;
+  margin-bottom: 10%;
+  font-size: 10pc;
+  font-family: "Great Vibes", cursive;
+}
+.title ::-webkit-scrollbar {
+  display: none;
 }
