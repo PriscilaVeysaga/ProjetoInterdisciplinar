@@ -14,15 +14,16 @@ const Clientes = () => {
             Na Les Mustaches, nossos clientes tem preferências.
             <br></br>
             <p>
-               Personalização Total: Escolha o Profissional e Horário Ideais
-              para Você! 
+              Personalização Total: Escolha o Profissional e Horário Ideais para
+              Você!
+            </p>
             <p>
               Aqui, a escolha é sua! Opte pelo profissional certo e o horário
               mais conveniente para você. Conte com profissionais de primeira
               classe e horários flexíveis que se ajustam à sua agenda. No nosso
               espaço, você está no comando da sua experiência, e a sua
               satisfação é a nossa prioridade. Agende agora e comece sua jornada
-              de bem-estar personalizada! 
+              de bem-estar personalizada!
             </p>
           </span>
           <div className="buttons">
