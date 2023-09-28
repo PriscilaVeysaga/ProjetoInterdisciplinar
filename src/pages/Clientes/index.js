@@ -32,7 +32,9 @@ const Clientes = () => {
           <button>
           <Link to="/cadastrar">Cadastrar</Link>
           </button>
-          <button>Entrar</button>
+          <button>
+          <Link to="/login">Entrar</Link>
+          </button>
         </div>
       </div>
     </div>

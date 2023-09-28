@@ -7,6 +7,7 @@ import Produto from './pages/Produtos';
 import Servicos from './pages/Servicos';
 import Pedidos from './pages/Pedidos';
 import Cadastro from './pages/Clientes/cadastrar/cadastro';
+import Login from './pages/Clientes/login/login';
 
 const AppRoutes = () => {
   return (
@@ -18,6 +19,7 @@ const AppRoutes = () => {
       <Route path="/servicos" element={<Servicos />} />
       <Route path="/pedidos" element={<Pedidos />} />
       <Route path="/cadastrar" element={<Cadastro />} />
+      <Route path="/login" element={<Login />} />
     </Routes>
   );
 }
