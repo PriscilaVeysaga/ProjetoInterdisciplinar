@@ -1,13 +1,14 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-import Clientes from './pages/Clientes';
-import Profissional from './pages/Profissional';
-import Produto from './pages/Produtos';
-import Servicos from './pages/Servicos';
-import Pedidos from './pages/Pedidos';
-import Cadastro from './pages/Clientes/cadastrar/cadastro';
-import Login from './pages/Clientes/login/login';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Clientes from "./pages/Clientes";
+import Profissional from "./pages/Profissional";
+import Produto from "./pages/Produtos";
+import Servicos from "./pages/Servicos";
+import Pedidos from "./pages/Pedidos";
+import Cadastro from "./pages/Clientes/cadastrar/cadastro";
+import Login from "./pages/Clientes/login/login";
+import Agendar from "./pages/Profissional/agenda";
 
 const AppRoutes = () => {
   return (
@@ -20,8 +21,9 @@ const AppRoutes = () => {
       <Route path="/pedidos" element={<Pedidos />} />
       <Route path="/cadastrar" element={<Cadastro />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/agenda" element={<Agendar />} />
     </Routes>
   );
-}
+};
 
 export default AppRoutes;

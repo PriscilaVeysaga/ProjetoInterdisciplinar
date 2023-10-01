@@ -1,7 +1,8 @@
 import React from "react";
 import prodissional from "../../images/Profissional.jpg";
+import { Link } from "react-router-dom";
 
-const Clientes = () => {
+const Profissionais = () => {
   return (
     <div className="container">
       <div className="image-container">
@@ -28,11 +29,11 @@ const Clientes = () => {
           </span>
           <div className="buttons">
             <button>Profissionais</button>
-            <button>Agenda</button>
+            <Link to="/agenda">Agendar</Link>
           </div>
         </div>
       </div>
     </div>
   );
 };
-export default Clientes;
+export default Profissionais;
